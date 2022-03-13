@@ -141,5 +141,4 @@ namespace DashBoard_lortega
 											"GROUP BY [ShipCity] ";
 
 	}
-
 }
