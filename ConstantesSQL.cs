@@ -21,8 +21,7 @@ namespace DashBoard_lortega
 																		  "GROUP BY[Northwind].[dbo].[Employees].[EmployeeID] " +
 																				",[Northwind].[dbo].[Employees].[LastName] " +
 																				",[Northwind].[dbo].[Employees].[FirstName];";
-
-
+		// Comentario de prueba
 
 		public const string sqlEmpleadoConTotalVentasPorProducto = "SELECT [Northwind].[dbo].[Employees].[EmployeeID] " +
 																	",[Northwind].[dbo].[Employees].[LastName] " +
