@@ -23,6 +23,8 @@ namespace DashBoard_lortega
 																				",[Northwind].[dbo].[Employees].[FirstName];";
 		// Comentario de prueba
 
+		// Comentario de prueba 2
+
 		public const string sqlEmpleadoConTotalVentasPorProducto = "SELECT [Northwind].[dbo].[Employees].[EmployeeID] " +
 																	",[Northwind].[dbo].[Employees].[LastName] " +
 																	",[Northwind].[dbo].[Employees].[FirstName] " +
