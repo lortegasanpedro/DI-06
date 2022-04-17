@@ -32,24 +32,39 @@ namespace DashBoard_UI
                 lblClientes.BackColor = Color.White;
                 lblEmpleados.BackColor = Color.White;
                 lblEnvios.BackColor = Color.White;
+                lblInformes.BackColor = Color.White;
                 pBEmpleados.BorderStyle = BorderStyle.None;
                 pBClientes.BorderStyle = BorderStyle.None;
                 pBProductos.BorderStyle = BorderStyle.None;
                 pBEnvios.BorderStyle = BorderStyle.None;
+                pBInformes.BorderStyle = BorderStyle.None;
                 lbl.BackColor = Color.DarkGray;
                 if (lbl.Name == lblEmpleados.Name)
                 {
                     pBEmpleados.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = true;
+
                 } else if (lbl.Name == lblProductos.Name)
                 {
                     pBProductos.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = true;
+
                 } else if (lbl.Name == lblClientes.Name)
                 {
                     pBClientes.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = true;
+
                 } else if (lbl.Name == lblEnvios.Name)
                 {
                     pBEnvios.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = true;
                 }
+                else if (lbl.Name == lblInformes.Name)
+                {
+                    pBInformes.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = false;
+                }
+
             }
         }
 
@@ -63,29 +78,41 @@ namespace DashBoard_UI
                 pBClientes.BorderStyle = BorderStyle.None;
                 pBProductos.BorderStyle = BorderStyle.None;
                 pBEnvios.BorderStyle = BorderStyle.None;
+                pBInformes.BorderStyle = BorderStyle.None;
                 lblProductos.BackColor = Color.White;
                 lblClientes.BackColor = Color.White;
                 lblEmpleados.BackColor = Color.White;
                 lblEnvios.BackColor = Color.White;
+                lblInformes.BackColor = Color.White;
                 pictureBox.BorderStyle = BorderStyle.Fixed3D;
                 if (pictureBox.Name == pBEmpleados.Name)
                 {
                     lblEmpleados.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = true;
                 }
                 else if (pictureBox.Name == pBProductos.Name)
                 {
                     lblProductos.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = true;
                 }
                 else if (pictureBox.Name == pBClientes.Name)
                 {
                     lblClientes.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = true;
                 }
                 else if (pictureBox.Name == pBEnvios.Name)
                 {
                     lblEnvios.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = true;
+                }
+                else if (pictureBox.Name == pBInformes.Name)
+                {
+                    lblInformes.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = false;
                 }
             }
-        }
+             
+            }
         private void SelectButton(object sender)
         {
 
@@ -213,6 +240,12 @@ namespace DashBoard_UI
                     List<TotalEnviosPorCompanyVO> listaTotalEnviosPorCompany = dashBoardBLL.ConsultaTotalEnviosPorCompany();
                     Utilidades.ChartTotalEnviosPorCompany(listaTotalEnviosPorCompany, this.chartNorthWind);
                 }
+                else if (tipo == Constantes.TIPO_INFORMES)
+                {
+                    Informes informes = new Informes();
+                    informes.Informe = Constantes.NOMBRES_INFORMES[0];
+                    informes.Show();
+                }
             } catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
@@ -247,6 +280,13 @@ namespace DashBoard_UI
                     List<TotalEnviosPorPaisVO> listaTotalEnviosPorPais = dashBoardBLL.ConsultaTotalEnviosPorPais();
                     Utilidades.ChartTotalEnviosPorPais(listaTotalEnviosPorPais, this.chartNorthWind);
                 }
+                else if (tipo == Constantes.TIPO_INFORMES)
+                {
+                    Informes informes = new Informes();
+                    informes.Informe = Constantes.NOMBRES_INFORMES[1];
+                    informes.Show();
+                }
+
             }
             catch (Exception ex)
             {
@@ -280,6 +320,12 @@ namespace DashBoard_UI
                 List<TotalEnviosPorCiudadVO> listaTotalEnviosPorCiudad = dashBoardBLL.ConsultaTotalEnviosPorCiudad();
                 Utilidades.ChartTotalEnviosPorCiudad(listaTotalEnviosPorCiudad, this.chartNorthWind);
             }
+            else if (tipo == Constantes.TIPO_INFORMES)
+            {
+                Informes informes = new Informes();
+                informes.Informe = Constantes.NOMBRES_INFORMES[2];
+                informes.Show();
+            }
         }
 
         private void btn4_Click(object sender, EventArgs e)
@@ -303,6 +349,14 @@ namespace DashBoard_UI
                     List<ClientesConTotalCompraVO> listaClientesConTotalCompra = dashBoardBLL.ConsultaClientesConTotalCompras(10000, false);
                     Utilidades.ChartClientesConTotalCompra(listaClientesConTotalCompra, this.chartNorthWind, 10000, false);
                 }
+                else if (tipo == Constantes.TIPO_INFORMES)
+                {
+                    Informes informes = new Informes();
+                    informes.Informe = Constantes.NOMBRES_INFORMES[3];
+                    informes.Show();
+                }
+
+
             }
             catch (Exception ex)
             {
@@ -578,5 +632,26 @@ namespace DashBoard_UI
 
         }
 
+        private void pbInformes_Click(object sender, EventArgs e)
+        {
+
+            SelectPictureBox(sender);
+            List<string> listTituloBotones = Utilidades.ObtenerNombresBotones(Constantes.TIPO_INFORMES);
+            OcultarBotones();
+            tipo = Constantes.TIPO_INFORMES;
+            PonerTituloBotones(listTituloBotones, tipo);
+            btn1.PerformClick();
+
+        }
+
+        private void lblInformes_Click(object sender, EventArgs e)
+        {
+            SelectLBL(sender);
+            List<string> listTituloInformes = Utilidades.ObtenerNombresBotones(Constantes.TIPO_INFORMES);
+            OcultarBotones();
+            tipo = Constantes.TIPO_INFORMES;
+            PonerTituloBotones(listTituloInformes, tipo);
+
+        }
     }
 }

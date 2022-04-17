@@ -12,6 +12,13 @@ namespace DashBoard_lortega
         public const int TIPO_PRODUCTO = 1;
         public const int TIPO_CLIENTE = 2;
         public const int TIPO_ENVIO = 3;
+        public const int TIPO_INFORMES = 4;
+
+
+        public static string[] NOMBRES_INFORMES = { "Inf1VentasTotalesPorCategoriaYAgno.rpt",
+                                                    "Inf2ProductosCompradosPorUnCliente.rpt",
+                                                    "Inf3VentasTotalesPorCadaEmpleado.rpt",
+                                                    "Inf4VentasTotalesPorClientes.rpt"};
 
         public static string[] TITULO_BOTONES_EMPLEADO = {"Total de ventas por empleado",
                                                     "Ventas totales por producto del empleado Nancy",
@@ -46,6 +53,12 @@ namespace DashBoard_lortega
         public static string[] TITULO_BOTONES_ENVIO = {"Ventas totales por compania de envío",
                                                     "Ventas totales por pais",
                                                     "Ventas totales por ciudad"};
+
+
+        public static string[] TITULO_BOTONES_INFORMES = {"Ventas Totales Por Categoría y Año",
+                                                          "Productos Comprados Por un Cliente",
+                                                          "Ventas Totales por Cada Empleado",
+                                                          "Ventas Totales por Clientes"};
 
         public const int EMPLEADO_NANCY_ID = 1;
         public const int EMPLEADO_ANDREW_ID = 2;

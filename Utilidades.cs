@@ -194,6 +194,11 @@ namespace DashBoard_lortega
                     // code block
                     listNombresBotones = ObtenerListaTituloBotones(Constantes.TITULO_BOTONES_ENVIO);
                     break;
+                case Constantes.TIPO_INFORMES: // Informes
+                    // code block
+                    listNombresBotones = ObtenerListaTituloBotones(Constantes.TITULO_BOTONES_INFORMES);
+                    break;
+
                 default:
                     // code block
                     listNombresBotones = new List<string>();
