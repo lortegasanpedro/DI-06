@@ -18,7 +18,9 @@ namespace DashBoard_lortega
         public static string[] NOMBRES_INFORMES = { "Inf1VentasTotalesPorCategoriaYAgno.rpt",
                                                     "Inf2ProductosCompradosPorUnCliente.rpt",
                                                     "Inf3VentasTotalesPorCadaEmpleado.rpt",
-                                                    "Inf4VentasTotalesPorClientes.rpt"};
+                                                    "Inf4VentasTotalesPorClientes.rpt",
+                                                    "ReportStocksProductos.rdlc",
+                                                    "ReportTotalEnviosPorPais.rdlc"};
 
         public static string[] TITULO_BOTONES_EMPLEADO = {"Total de ventas por empleado",
                                                     "Ventas totales por producto del empleado Nancy",
@@ -58,7 +60,9 @@ namespace DashBoard_lortega
         public static string[] TITULO_BOTONES_INFORMES = {"Ventas Totales Por Categoría y Año",
                                                           "Productos Comprados Por un Cliente",
                                                           "Ventas Totales por Cada Empleado",
-                                                          "Ventas Totales por Clientes"};
+                                                          "Ventas Totales por Clientes",
+                                                          "Stocks de Productos",
+                                                          "Total de Envios por Pais"};
 
         public const int EMPLEADO_NANCY_ID = 1;
         public const int EMPLEADO_ANDREW_ID = 2;

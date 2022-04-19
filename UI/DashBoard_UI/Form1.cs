@@ -389,6 +389,11 @@ namespace DashBoard_UI
                     List<ClientesConTotalCompraVO> listaClientesConTotalCompra = dashBoardBLL.ConsultaClientesConTotalCompras(5000, false);
                     Utilidades.ChartClientesConTotalCompra(listaClientesConTotalCompra, this.chartNorthWind, 5000, false);
                 }
+                else if (tipo == Constantes.TIPO_INFORMES)
+                {
+                    InformesMReportViewerStocksProductos informesMReportViewerStocksProductos = new InformesMReportViewerStocksProductos();
+                    informesMReportViewerStocksProductos.Show();
+                }
             }
             catch (Exception ex)
             {
@@ -421,6 +426,11 @@ namespace DashBoard_UI
                 {
                     List<ClientesConTotalCompraVO> listaClientesConTotalCompra = dashBoardBLL.ConsultaClientesConTotalCompras(1000, false);
                     Utilidades.ChartClientesConTotalCompra(listaClientesConTotalCompra, this.chartNorthWind, 1000, false);
+                }
+                else if (tipo == Constantes.TIPO_INFORMES)
+                {
+                    InformesMReportViewerEnviosPorPais informesMReportViewer = new InformesMReportViewerEnviosPorPais();
+                    informesMReportViewer.Show();
                 }
             }
             catch (Exception ex)
@@ -652,6 +662,12 @@ namespace DashBoard_UI
             tipo = Constantes.TIPO_INFORMES;
             PonerTituloBotones(listTituloInformes, tipo);
 
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            InformesMReportViewerEnviosPorPais form2 = new InformesMReportViewerEnviosPorPais();
+            form2.Show();
         }
     }
 }
