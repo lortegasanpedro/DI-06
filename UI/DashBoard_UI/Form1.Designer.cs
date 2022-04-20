@@ -32,11 +32,17 @@
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.pBEmpleados = new System.Windows.Forms.PictureBox();
             this.lblEmpleados = new System.Windows.Forms.Label();
+            this.pBProductos = new System.Windows.Forms.PictureBox();
             this.lblProductos = new System.Windows.Forms.Label();
+            this.pBClientes = new System.Windows.Forms.PictureBox();
             this.lblClientes = new System.Windows.Forms.Label();
+            this.pBEnvios = new System.Windows.Forms.PictureBox();
             this.lblEnvios = new System.Windows.Forms.Label();
+            this.pBInformes = new System.Windows.Forms.PictureBox();
             this.lblInformes = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btn1 = new System.Windows.Forms.Button();
@@ -50,24 +56,16 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btn10 = new System.Windows.Forms.Button();
             this.chartNorthWind = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
-            this.pBEmpleados = new System.Windows.Forms.PictureBox();
-            this.pBProductos = new System.Windows.Forms.PictureBox();
-            this.pBClientes = new System.Windows.Forms.PictureBox();
-            this.pBEnvios = new System.Windows.Forms.PictureBox();
-            this.pBInformes = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
+            this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pBEmpleados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBProductos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBEnvios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBInformes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.flowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -91,6 +89,17 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(977, 581);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // pbLogo
+            // 
+            this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pbLogo.Image = global::DashBoard_UI.Properties.Resources.logo;
+            this.pbLogo.Location = new System.Drawing.Point(6, 6);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(195, 101);
+            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
+            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -104,7 +113,6 @@
             this.flowLayoutPanel1.Controls.Add(this.lblEnvios);
             this.flowLayoutPanel1.Controls.Add(this.pBInformes);
             this.flowLayoutPanel1.Controls.Add(this.lblInformes);
-            this.flowLayoutPanel1.Controls.Add(this.pictureBox1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(206, 5);
@@ -112,6 +120,21 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(766, 103);
             this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // pBEmpleados
+            // 
+            this.pBEmpleados.BackgroundImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBEmpleados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pBEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBEmpleados.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBEmpleados.Location = new System.Drawing.Point(3, 3);
+            this.pBEmpleados.Name = "pBEmpleados";
+            this.pBEmpleados.Size = new System.Drawing.Size(83, 77);
+            this.pBEmpleados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBEmpleados.TabIndex = 1;
+            this.pBEmpleados.TabStop = false;
+            this.pBEmpleados.Click += new System.EventHandler(this.pbEmpleados_Click);
             // 
             // lblEmpleados
             // 
@@ -130,6 +153,20 @@
             this.lblEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblEmpleados.Click += new System.EventHandler(this.lblEmpleados_Click);
             // 
+            // pBProductos
+            // 
+            this.pBProductos.BackgroundImage = global::DashBoard_UI.Properties.Resources._49602_freight_packing_products_shipment_trucking_icon;
+            this.pBProductos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBProductos.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBProductos.Location = new System.Drawing.Point(92, 3);
+            this.pBProductos.Name = "pBProductos";
+            this.pBProductos.Size = new System.Drawing.Size(84, 77);
+            this.pBProductos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBProductos.TabIndex = 2;
+            this.pBProductos.TabStop = false;
+            this.pBProductos.Click += new System.EventHandler(this.pBProductos_Click);
+            // 
             // lblProductos
             // 
             this.lblProductos.AutoSize = true;
@@ -145,6 +182,20 @@
             this.lblProductos.Text = "Productos";
             this.lblProductos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblProductos.Click += new System.EventHandler(this.lblProductos_Click);
+            // 
+            // pBClientes
+            // 
+            this.pBClientes.BackgroundImage = global::DashBoard_UI.Properties.Resources._1218712_customers_group_team_user_user_group_icon;
+            this.pBClientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBClientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBClientes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBClientes.Location = new System.Drawing.Point(182, 3);
+            this.pBClientes.Name = "pBClientes";
+            this.pBClientes.Size = new System.Drawing.Size(100, 77);
+            this.pBClientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBClientes.TabIndex = 4;
+            this.pBClientes.TabStop = false;
+            this.pBClientes.Click += new System.EventHandler(this.pBClientes_Click);
             // 
             // lblClientes
             // 
@@ -162,6 +213,20 @@
             this.lblClientes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblClientes.Click += new System.EventHandler(this.lblClientes_Click);
             // 
+            // pBEnvios
+            // 
+            this.pBEnvios.BackgroundImage = global::DashBoard_UI.Properties.Resources._2332026;
+            this.pBEnvios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBEnvios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBEnvios.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBEnvios.Location = new System.Drawing.Point(288, 3);
+            this.pBEnvios.Name = "pBEnvios";
+            this.pBEnvios.Size = new System.Drawing.Size(100, 77);
+            this.pBEnvios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBEnvios.TabIndex = 8;
+            this.pBEnvios.TabStop = false;
+            this.pBEnvios.Click += new System.EventHandler(this.pbEnvios_Click);
+            // 
             // lblEnvios
             // 
             this.lblEnvios.AutoSize = true;
@@ -177,6 +242,20 @@
             this.lblEnvios.Text = "Envios";
             this.lblEnvios.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblEnvios.Click += new System.EventHandler(this.lblEnvios_Click);
+            // 
+            // pBInformes
+            // 
+            this.pBInformes.BackgroundImage = global::DashBoard_UI.Properties.Resources._49615_reports_report_documents_icon;
+            this.pBInformes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBInformes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBInformes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
+            this.pBInformes.Location = new System.Drawing.Point(394, 3);
+            this.pBInformes.Name = "pBInformes";
+            this.pBInformes.Size = new System.Drawing.Size(100, 77);
+            this.pBInformes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBInformes.TabIndex = 10;
+            this.pBInformes.TabStop = false;
+            this.pBInformes.Click += new System.EventHandler(this.pbInformes_Click);
             // 
             // lblInformes
             // 
@@ -349,102 +428,6 @@
             title1.Text = "Titulo1";
             this.chartNorthWind.Titles.Add(title1);
             // 
-            // pbLogo
-            // 
-            this.pbLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbLogo.Image = global::DashBoard_UI.Properties.Resources.logo;
-            this.pbLogo.Location = new System.Drawing.Point(6, 6);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(195, 101);
-            this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLogo.TabIndex = 0;
-            this.pbLogo.TabStop = false;
-            // 
-            // pBEmpleados
-            // 
-            this.pBEmpleados.BackgroundImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pBEmpleados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pBEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pBEmpleados.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBEmpleados.Location = new System.Drawing.Point(3, 3);
-            this.pBEmpleados.Name = "pBEmpleados";
-            this.pBEmpleados.Size = new System.Drawing.Size(83, 77);
-            this.pBEmpleados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pBEmpleados.TabIndex = 1;
-            this.pBEmpleados.TabStop = false;
-            this.pBEmpleados.Click += new System.EventHandler(this.pbEmpleados_Click);
-            // 
-            // pBProductos
-            // 
-            this.pBProductos.BackgroundImage = global::DashBoard_UI.Properties.Resources._49602_freight_packing_products_shipment_trucking_icon;
-            this.pBProductos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pBProductos.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pBProductos.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBProductos.Location = new System.Drawing.Point(92, 3);
-            this.pBProductos.Name = "pBProductos";
-            this.pBProductos.Size = new System.Drawing.Size(84, 77);
-            this.pBProductos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pBProductos.TabIndex = 2;
-            this.pBProductos.TabStop = false;
-            this.pBProductos.Click += new System.EventHandler(this.pBProductos_Click);
-            // 
-            // pBClientes
-            // 
-            this.pBClientes.BackgroundImage = global::DashBoard_UI.Properties.Resources._1218712_customers_group_team_user_user_group_icon;
-            this.pBClientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pBClientes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pBClientes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBClientes.Location = new System.Drawing.Point(182, 3);
-            this.pBClientes.Name = "pBClientes";
-            this.pBClientes.Size = new System.Drawing.Size(100, 77);
-            this.pBClientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pBClientes.TabIndex = 4;
-            this.pBClientes.TabStop = false;
-            this.pBClientes.Click += new System.EventHandler(this.pBClientes_Click);
-            // 
-            // pBEnvios
-            // 
-            this.pBEnvios.BackgroundImage = global::DashBoard_UI.Properties.Resources._2332026;
-            this.pBEnvios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pBEnvios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pBEnvios.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBEnvios.Location = new System.Drawing.Point(288, 3);
-            this.pBEnvios.Name = "pBEnvios";
-            this.pBEnvios.Size = new System.Drawing.Size(100, 77);
-            this.pBEnvios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pBEnvios.TabIndex = 8;
-            this.pBEnvios.TabStop = false;
-            this.pBEnvios.Click += new System.EventHandler(this.pbEnvios_Click);
-            // 
-            // pBInformes
-            // 
-            this.pBInformes.BackgroundImage = global::DashBoard_UI.Properties.Resources._49615_reports_report_documents_icon;
-            this.pBInformes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pBInformes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pBInformes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pBInformes.Location = new System.Drawing.Point(394, 3);
-            this.pBInformes.Name = "pBInformes";
-            this.pBInformes.Size = new System.Drawing.Size(100, 77);
-            this.pBInformes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pBInformes.TabIndex = 10;
-            this.pBInformes.TabStop = false;
-            this.pBInformes.Click += new System.EventHandler(this.pbInformes_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::DashBoard_UI.Properties.Resources._49615_reports_report_documents_icon;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
-            this.pictureBox1.Location = new System.Drawing.Point(500, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -455,17 +438,16 @@
             this.Text = "DashBoard_lortega";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBEmpleados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBProductos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBClientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBEnvios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBInformes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -497,7 +479,6 @@
         private System.Windows.Forms.Label lblEnvios;
         private System.Windows.Forms.PictureBox pBInformes;
         private System.Windows.Forms.Label lblInformes;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

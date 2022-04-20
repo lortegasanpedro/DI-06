@@ -9,10 +9,10 @@
               <Width>2.5cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>8.215cm</Width>
+              <Width>9.86896cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>3.27109cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -28,7 +28,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Product ID</Value>
+                              <Value>ID Producto</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -58,7 +58,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Product Name</Value>
+                              <Value>Nombre</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -88,7 +88,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Units In Stock</Value>
+                              <Value>Unidades</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
@@ -226,10 +226,10 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.82903cm</Top>
+        <Top>0.17639cm</Top>
         <Left>0.55245cm</Left>
         <Height>1.2cm</Height>
-        <Width>13.215cm</Width>
+        <Width>15.64005cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -237,7 +237,7 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>1.07303in</Height>
+    <Height>0.65636in</Height>
     <Style />
   </Body>
   <Width>6.5in</Width>
@@ -305,7 +305,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>1.37583cm</Height>
+      <Height>1.93146cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -324,14 +324,49 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>PageNumber</rd:DefaultName>
-          <Top>0.17639cm</Top>
-          <Left>11.26745cm</Left>
+          <Top>1.12819cm</Top>
+          <Left>13.6925cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>
             <Border>
               <Style>None</Style>
             </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox10">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>NorthWind</Value>
+                  <Style />
+                </TextRun>
+              </TextRuns>
+              <Style>
+                <TextAlign>Right</TextAlign>
+              </Style>
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox10</rd:DefaultName>
+          <Top>0.29889cm</Top>
+          <Left>0.85703cm</Left>
+          <Height>0.65292cm</Height>
+          <Width>15.33547cm</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <BottomBorder>
+              <Style>Double</Style>
+            </BottomBorder>
             <PaddingLeft>2pt</PaddingLeft>
             <PaddingRight>2pt</PaddingRight>
             <PaddingTop>2pt</PaddingTop>
