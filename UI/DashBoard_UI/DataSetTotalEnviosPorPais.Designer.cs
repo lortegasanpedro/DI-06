@@ -788,7 +788,8 @@ FROM            Shippers INNER JOIN
                          Orders ON Shippers.ShipperID = Orders.ShipVia INNER JOIN
                          [Order Details] ON Orders.OrderID = [Order Details].OrderID INNER JOIN
                          Products ON [Order Details].ProductID = Products.ProductID
-GROUP BY Orders.ShipCity";
+GROUP BY Orders.ShipCity
+ORDER BY TotalEnviosPorPais ASC";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         

@@ -806,14 +806,14 @@ namespace DashBoard_UI.DataSetStocksProductosTableAdapters {
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [Products] ([ProductName], [UnitsInStock]) VALUES (@ProductName, @Uni" +
                 "tsInStock);\r\nSELECT ProductID, ProductName, UnitsInStock FROM Products WHERE (Pr" +
-                "oductID = SCOPE_IDENTITY())";
+                "oductID = SCOPE_IDENTITY()) ORDER BY UnitsInStock";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ProductName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ProductName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UnitsInStock", global::System.Data.SqlDbType.SmallInt, 0, global::System.Data.ParameterDirection.Input, 0, 0, "UnitsInStock", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = @"UPDATE [Products] SET [ProductName] = @ProductName, [UnitsInStock] = @UnitsInStock WHERE (([ProductID] = @Original_ProductID) AND ([ProductName] = @Original_ProductName) AND ((@IsNull_UnitsInStock = 1 AND [UnitsInStock] IS NULL) OR ([UnitsInStock] = @Original_UnitsInStock)));
-SELECT ProductID, ProductName, UnitsInStock FROM Products WHERE (ProductID = @ProductID)";
+SELECT ProductID, ProductName, UnitsInStock FROM Products WHERE (ProductID = @ProductID) ORDER BY UnitsInStock";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@ProductName", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "ProductName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@UnitsInStock", global::System.Data.SqlDbType.SmallInt, 0, global::System.Data.ParameterDirection.Input, 0, 0, "UnitsInStock", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -837,7 +837,8 @@ SELECT ProductID, ProductName, UnitsInStock FROM Products WHERE (ProductID = @Pr
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT        ProductID, ProductName, UnitsInStock\r\nFROM            Products";
+            this._commandCollection[0].CommandText = "SELECT    ProductID, ProductName, UnitsInStock\r\nFROM      Products ORDER BY Units" +
+                "InStock ASC";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
