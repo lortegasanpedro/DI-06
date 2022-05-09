@@ -25,8 +25,8 @@ namespace DashBoard_UI
         private void Informes_Load(object sender, EventArgs e)
         {
             ReportDocument cryRpt = new ReportDocument();
-            //string path = "../../" + this.informe;
-            string path = this.informe;
+            string path = "../../" + this.informe;
+            //string path = this.informe;
             cryRpt.Load(path);
             //cryRpt.SetParameterValue("txtNombreCli", _datos.sNombre);
             //cryRpt.SetParameterValue("txtNIFCli", _datos.sNIF);
