@@ -61,6 +61,7 @@
             this.btn10 = new System.Windows.Forms.Button();
             this.chartNorthWind = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.toolTipDashBoard = new System.Windows.Forms.ToolTip(this.components);
+            this.helpProviderDashBoard = new System.Windows.Forms.HelpProvider();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -136,9 +137,11 @@
             this.pBEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBEmpleados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pBEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBEmpleados, "Selecciona esta opción para ver lla venta de los empleados");
             this.pBEmpleados.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBEmpleados.Location = new System.Drawing.Point(3, 3);
             this.pBEmpleados.Name = "pBEmpleados";
+            this.helpProviderDashBoard.SetShowHelp(this.pBEmpleados, true);
             this.pBEmpleados.Size = new System.Drawing.Size(83, 77);
             this.pBEmpleados.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBEmpleados.TabIndex = 1;
@@ -167,9 +170,11 @@
             this.pBProductos.BackgroundImage = global::DashBoard_UI.Properties.Resources._49602_freight_packing_products_shipment_trucking_icon;
             this.pBProductos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBProductos.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBProductos, "Selecciona esta opción para mostrar la venta de productos");
             this.pBProductos.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBProductos.Location = new System.Drawing.Point(92, 3);
             this.pBProductos.Name = "pBProductos";
+            this.helpProviderDashBoard.SetShowHelp(this.pBProductos, true);
             this.pBProductos.Size = new System.Drawing.Size(84, 77);
             this.pBProductos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBProductos.TabIndex = 2;
@@ -197,9 +202,11 @@
             this.pBClientes.BackgroundImage = global::DashBoard_UI.Properties.Resources._1218712_customers_group_team_user_user_group_icon;
             this.pBClientes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBClientes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBClientes, "Selecciona esta opción para mostrar las ventas por clientes");
             this.pBClientes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBClientes.Location = new System.Drawing.Point(182, 3);
             this.pBClientes.Name = "pBClientes";
+            this.helpProviderDashBoard.SetShowHelp(this.pBClientes, true);
             this.pBClientes.Size = new System.Drawing.Size(100, 77);
             this.pBClientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBClientes.TabIndex = 4;
@@ -227,9 +234,11 @@
             this.pBEnvios.BackgroundImage = global::DashBoard_UI.Properties.Resources._2332026;
             this.pBEnvios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBEnvios.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBEnvios, "Selecciona esta opción para mostrar los diferentes tipos de envíos");
             this.pBEnvios.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBEnvios.Location = new System.Drawing.Point(288, 3);
             this.pBEnvios.Name = "pBEnvios";
+            this.helpProviderDashBoard.SetShowHelp(this.pBEnvios, true);
             this.pBEnvios.Size = new System.Drawing.Size(100, 77);
             this.pBEnvios.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBEnvios.TabIndex = 8;
@@ -257,9 +266,11 @@
             this.pBInformes.BackgroundImage = global::DashBoard_UI.Properties.Resources._49615_reports_report_documents_icon;
             this.pBInformes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBInformes.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBInformes, "Selecciona esta opción para visualizar los informes");
             this.pBInformes.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBInformes.Location = new System.Drawing.Point(394, 3);
             this.pBInformes.Name = "pBInformes";
+            this.helpProviderDashBoard.SetShowHelp(this.pBInformes, true);
             this.pBInformes.Size = new System.Drawing.Size(100, 77);
             this.pBInformes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBInformes.TabIndex = 10;
@@ -287,9 +298,11 @@
             this.pBAyuda.BackgroundImage = global::DashBoard_UI.Properties.Resources._1814114_help_question_icon1;
             this.pBAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBAyuda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.pBAyuda, "Si seleccionas esta opcíon abre el manual de ayuda");
             this.pBAyuda.InitialImage = null;
             this.pBAyuda.Location = new System.Drawing.Point(500, 3);
             this.pBAyuda.Name = "pBAyuda";
+            this.helpProviderDashBoard.SetShowHelp(this.pBAyuda, true);
             this.pBAyuda.Size = new System.Drawing.Size(100, 77);
             this.pBAyuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pBAyuda.TabIndex = 12;
@@ -473,7 +486,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(977, 581);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.HelpButton = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "DashBoard_lortega";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -523,6 +539,7 @@
         private System.Windows.Forms.PictureBox pBAyuda;
         private System.Windows.Forms.Label lblAyuda;
         private System.Windows.Forms.ToolTip toolTipDashBoard;
+        private System.Windows.Forms.HelpProvider helpProviderDashBoard;
     }
 }
 
