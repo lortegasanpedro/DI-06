@@ -1,0 +1,15 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=ManualUsuarioDashBoard_lortega.chm
+Contents file=Table of Contents.hhc
+Default topic=Getting_Started.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0xc0a Español (España, internacional)
+
+
+[FILES]
+Getting_Started.htm
+
+[INFOTYPES]
+
