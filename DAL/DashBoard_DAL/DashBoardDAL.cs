@@ -11,8 +11,8 @@ namespace DashBoard_DAL
 {
     public class DashBoardDAL
     {
-        string conectionString = @"Data Source=192.168.0.19;Initial catalog=Northwind;User ID=lortega;Password=P@ssw0rd";
-        //string conectionString = @"Data Source=localhost;Initial catalog=Northwind;User ID=di;Password=1234";
+        //string conectionString = @"Data Source=192.168.0.19;Initial catalog=Northwind;User ID=lortega;Password=P@ssw0rd";
+        string conectionString = @"Data Source=localhost;Initial catalog=Northwind;User ID=di;Password=1234";
 
         public List<TotalVentasPorEmpleadoVO> ConsultaTodosEmpleados()
         {
