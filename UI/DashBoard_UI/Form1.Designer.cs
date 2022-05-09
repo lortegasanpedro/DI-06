@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
@@ -45,6 +46,8 @@
             this.lblEnvios = new System.Windows.Forms.Label();
             this.pBInformes = new System.Windows.Forms.PictureBox();
             this.lblInformes = new System.Windows.Forms.Label();
+            this.pBAyuda = new System.Windows.Forms.PictureBox();
+            this.lblAyuda = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
@@ -57,6 +60,7 @@
             this.btn9 = new System.Windows.Forms.Button();
             this.btn10 = new System.Windows.Forms.Button();
             this.chartNorthWind = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.toolTipDashBoard = new System.Windows.Forms.ToolTip(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
@@ -65,6 +69,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBClientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBEnvios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBInformes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBAyuda)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).BeginInit();
             this.SuspendLayout();
@@ -103,6 +108,7 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.flowLayoutPanel1.Controls.Add(this.pBEmpleados);
             this.flowLayoutPanel1.Controls.Add(this.lblEmpleados);
@@ -114,6 +120,8 @@
             this.flowLayoutPanel1.Controls.Add(this.lblEnvios);
             this.flowLayoutPanel1.Controls.Add(this.pBInformes);
             this.flowLayoutPanel1.Controls.Add(this.lblInformes);
+            this.flowLayoutPanel1.Controls.Add(this.pBAyuda);
+            this.flowLayoutPanel1.Controls.Add(this.lblAyuda);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(206, 5);
@@ -273,6 +281,36 @@
             this.lblInformes.Text = "Informes";
             this.lblInformes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblInformes.Click += new System.EventHandler(this.lblInformes_Click);
+            // 
+            // pBAyuda
+            // 
+            this.pBAyuda.BackgroundImage = global::DashBoard_UI.Properties.Resources._1814114_help_question_icon1;
+            this.pBAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBAyuda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pBAyuda.InitialImage = null;
+            this.pBAyuda.Location = new System.Drawing.Point(500, 3);
+            this.pBAyuda.Name = "pBAyuda";
+            this.pBAyuda.Size = new System.Drawing.Size(100, 77);
+            this.pBAyuda.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pBAyuda.TabIndex = 12;
+            this.pBAyuda.TabStop = false;
+            this.pBAyuda.Click += new System.EventHandler(this.pBAyuda_Click);
+            // 
+            // lblAyuda
+            // 
+            this.lblAyuda.AutoSize = true;
+            this.lblAyuda.BackColor = System.Drawing.Color.White;
+            this.lblAyuda.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblAyuda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblAyuda.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblAyuda.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAyuda.Location = new System.Drawing.Point(500, 83);
+            this.lblAyuda.Name = "lblAyuda";
+            this.lblAyuda.Size = new System.Drawing.Size(100, 16);
+            this.lblAyuda.TabIndex = 13;
+            this.lblAyuda.Text = "Ayuda";
+            this.lblAyuda.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAyuda.Click += new System.EventHandler(this.lblAyuda_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -448,6 +486,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBClientes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBEnvios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBInformes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBAyuda)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartNorthWind)).EndInit();
             this.ResumeLayout(false);
@@ -481,6 +520,9 @@
         private System.Windows.Forms.Label lblEnvios;
         private System.Windows.Forms.PictureBox pBInformes;
         private System.Windows.Forms.Label lblInformes;
+        private System.Windows.Forms.PictureBox pBAyuda;
+        private System.Windows.Forms.Label lblAyuda;
+        private System.Windows.Forms.ToolTip toolTipDashBoard;
     }
 }
 

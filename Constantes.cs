@@ -13,6 +13,7 @@ namespace DashBoard_lortega
         public const int TIPO_CLIENTE = 2;
         public const int TIPO_ENVIO = 3;
         public const int TIPO_INFORMES = 4;
+        public const int TIPO_AYUDA = 5;
 
 
         public static string[] NOMBRES_INFORMES = { "Inf1VentasTotalesPorCategoriaYAgno.rpt",

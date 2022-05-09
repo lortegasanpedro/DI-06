@@ -250,7 +250,11 @@
     <None Include="Resources\49615_reports_report_documents_icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\3669173_help_ic_icon.png" />
+    <None Include="Resources\1814114_help_question_icon.png" />
+    <None Include="Resources\1814114_help_question_icon1.png" />
     <Content Include="Resources\7632690_dashboard_graph_analytics_report_icon.png" />
+    <None Include="Resources\Image1.bmp" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

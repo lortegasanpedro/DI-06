@@ -73,6 +73,26 @@ namespace DashBoard_UI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1814114_help_question_icon {
+            get {
+                object obj = ResourceManager.GetObject("1814114_help_question_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1814114_help_question_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("1814114_help_question_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2332026 {
             get {
                 object obj = ResourceManager.GetObject("2332026", resourceCulture);
@@ -86,6 +106,16 @@ namespace DashBoard_UI.Properties {
         internal static System.Drawing.Bitmap _293_2933613_employee_icon_png {
             get {
                 object obj = ResourceManager.GetObject("293-2933613_employee-icon-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3669173_help_ic_icon {
+            get {
+                object obj = ResourceManager.GetObject("3669173_help_ic_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

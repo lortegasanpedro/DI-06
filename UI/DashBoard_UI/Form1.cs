@@ -33,28 +33,33 @@ namespace DashBoard_UI
                 lblEmpleados.BackColor = Color.White;
                 lblEnvios.BackColor = Color.White;
                 lblInformes.BackColor = Color.White;
+                lblAyuda.BackColor = Color.White;
                 pBEmpleados.BorderStyle = BorderStyle.None;
                 pBClientes.BorderStyle = BorderStyle.None;
                 pBProductos.BorderStyle = BorderStyle.None;
                 pBEnvios.BorderStyle = BorderStyle.None;
                 pBInformes.BorderStyle = BorderStyle.None;
+                pBAyuda.BorderStyle = BorderStyle.None;
                 lbl.BackColor = Color.DarkGray;
                 if (lbl.Name == lblEmpleados.Name)
                 {
                     pBEmpleados.BorderStyle = BorderStyle.Fixed3D;
                     this.chartNorthWind.Visible = true;
 
-                } else if (lbl.Name == lblProductos.Name)
+                }
+                else if (lbl.Name == lblProductos.Name)
                 {
                     pBProductos.BorderStyle = BorderStyle.Fixed3D;
                     this.chartNorthWind.Visible = true;
 
-                } else if (lbl.Name == lblClientes.Name)
+                }
+                else if (lbl.Name == lblClientes.Name)
                 {
                     pBClientes.BorderStyle = BorderStyle.Fixed3D;
                     this.chartNorthWind.Visible = true;
 
-                } else if (lbl.Name == lblEnvios.Name)
+                }
+                else if (lbl.Name == lblEnvios.Name)
                 {
                     pBEnvios.BorderStyle = BorderStyle.Fixed3D;
                     this.chartNorthWind.Visible = true;
@@ -64,7 +69,11 @@ namespace DashBoard_UI
                     pBInformes.BorderStyle = BorderStyle.Fixed3D;
                     this.chartNorthWind.Visible = false;
                 }
-
+                else if (lbl.Name == lblAyuda.Name)
+                {
+                    pBAyuda.BorderStyle = BorderStyle.Fixed3D;
+                    this.chartNorthWind.Visible = false;
+                }
             }
         }
 
@@ -79,11 +88,13 @@ namespace DashBoard_UI
                 pBProductos.BorderStyle = BorderStyle.None;
                 pBEnvios.BorderStyle = BorderStyle.None;
                 pBInformes.BorderStyle = BorderStyle.None;
+                pBAyuda.BorderStyle = BorderStyle.None;
                 lblProductos.BackColor = Color.White;
                 lblClientes.BackColor = Color.White;
                 lblEmpleados.BackColor = Color.White;
                 lblEnvios.BackColor = Color.White;
                 lblInformes.BackColor = Color.White;
+                lblAyuda.BackColor = Color.White;
                 pictureBox.BorderStyle = BorderStyle.Fixed3D;
                 if (pictureBox.Name == pBEmpleados.Name)
                 {
@@ -110,9 +121,15 @@ namespace DashBoard_UI
                     lblInformes.BackColor = Color.DarkGray;
                     this.chartNorthWind.Visible = false;
                 }
+                else if (pictureBox.Name == pBAyuda.Name)
+                {
+                    lblAyuda.BackColor = Color.DarkGray;
+                    this.chartNorthWind.Visible = false;
+                }
+
             }
-             
-            }
+
+        }
         private void SelectButton(object sender)
         {
 
@@ -623,6 +640,21 @@ namespace DashBoard_UI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            this.toolTipDashBoard.SetToolTip(this.pBEmpleados, "Ventas por empleado");
+            this.toolTipDashBoard.SetToolTip(this.pBProductos, "Ventas de productos y stock");
+            this.toolTipDashBoard.SetToolTip(this.pBClientes, "Ventas por clientes");
+            this.toolTipDashBoard.SetToolTip(this.pBEnvios, "Envíos por compañía, país y ciudad");
+            this.toolTipDashBoard.SetToolTip(this.pBEnvios, "Informes");
+            this.toolTipDashBoard.SetToolTip(this.pBAyuda, "Manual de ayuda");
+
+            this.toolTipDashBoard.SetToolTip(this.lblEmpleados, "Ventas por empleado");
+            this.toolTipDashBoard.SetToolTip(this.lblProductos, "Ventas de productos y stock");
+            this.toolTipDashBoard.SetToolTip(this.lblClientes, "Ventas por clientes");
+            this.toolTipDashBoard.SetToolTip(this.lblEnvios, "Envíos por compañía, país y ciudad");
+            this.toolTipDashBoard.SetToolTip(this.lblEnvios, "Informes");
+            this.toolTipDashBoard.SetToolTip(this.lblAyuda, "Manual de ayuda");
+
             SelectButton(this.btn1);
             List<string> listTituloBotones = Utilidades.ObtenerNombresBotones(Constantes.TIPO_EMPLEADO);
             OcultarBotones();
@@ -654,6 +686,15 @@ namespace DashBoard_UI
 
         }
 
+        private void pBAyuda_Click(object sender, EventArgs e)
+        {
+            SelectPictureBox(sender);
+            OcultarBotones();
+            tipo = Constantes.TIPO_AYUDA;
+            Help.ShowHelp(this, "ManualUsuarioDashBoard_lortega.chm");
+        }
+
+
         private void lblInformes_Click(object sender, EventArgs e)
         {
             SelectLBL(sender);
@@ -664,10 +705,25 @@ namespace DashBoard_UI
 
         }
 
+        private void lblAyuda_Click(object sender, EventArgs e)
+        {
+            SelectLBL(sender);
+            OcultarBotones();
+            tipo = Constantes.TIPO_AYUDA;
+            Help.ShowHelp(this, "ManualUsuarioDashBoard_lortega.chm");
+        }
+
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             InformesMReportViewerEnviosPorPais form2 = new InformesMReportViewerEnviosPorPais();
             form2.Show();
         }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
