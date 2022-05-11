@@ -137,7 +137,7 @@
             this.pBEmpleados.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pBEmpleados.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pBEmpleados.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.helpProviderDashBoard.SetHelpString(this.pBEmpleados, "Selecciona esta opción para ver lla venta de los empleados");
+            this.helpProviderDashBoard.SetHelpString(this.pBEmpleados, "Selecciona esta opción para ver las ventas de los empleados");
             this.pBEmpleados.InitialImage = global::DashBoard_UI.Properties.Resources._293_2933613_employee_icon_png;
             this.pBEmpleados.Location = new System.Drawing.Point(3, 3);
             this.pBEmpleados.Name = "pBEmpleados";
@@ -346,8 +346,10 @@
             // btn1
             // 
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn1, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn1.Location = new System.Drawing.Point(3, 3);
             this.btn1.Name = "btn1";
+            this.helpProviderDashBoard.SetShowHelp(this.btn1, true);
             this.btn1.Size = new System.Drawing.Size(184, 38);
             this.btn1.TabIndex = 0;
             this.btn1.Text = "Total de ventas por empleado";
@@ -358,8 +360,10 @@
             // 
             this.btn2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn2, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn2.Location = new System.Drawing.Point(3, 47);
             this.btn2.Name = "btn2";
+            this.helpProviderDashBoard.SetShowHelp(this.btn2, true);
             this.btn2.Size = new System.Drawing.Size(184, 38);
             this.btn2.TabIndex = 1;
             this.btn2.Tag = "1";
@@ -371,8 +375,10 @@
             // 
             this.btn3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn3, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn3.Location = new System.Drawing.Point(3, 91);
             this.btn3.Name = "btn3";
+            this.helpProviderDashBoard.SetShowHelp(this.btn3, true);
             this.btn3.Size = new System.Drawing.Size(184, 38);
             this.btn3.TabIndex = 2;
             this.btn3.Tag = "2";
@@ -383,8 +389,10 @@
             // btn4
             // 
             this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn4, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn4.Location = new System.Drawing.Point(3, 135);
             this.btn4.Name = "btn4";
+            this.helpProviderDashBoard.SetShowHelp(this.btn4, true);
             this.btn4.Size = new System.Drawing.Size(184, 38);
             this.btn4.TabIndex = 3;
             this.btn4.Tag = "3";
@@ -395,8 +403,10 @@
             // btn5
             // 
             this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn5, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn5.Location = new System.Drawing.Point(3, 179);
             this.btn5.Name = "btn5";
+            this.helpProviderDashBoard.SetShowHelp(this.btn5, true);
             this.btn5.Size = new System.Drawing.Size(184, 38);
             this.btn5.TabIndex = 4;
             this.btn5.Text = "button5";
@@ -406,8 +416,10 @@
             // btn6
             // 
             this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn6, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn6.Location = new System.Drawing.Point(3, 223);
             this.btn6.Name = "btn6";
+            this.helpProviderDashBoard.SetShowHelp(this.btn6, true);
             this.btn6.Size = new System.Drawing.Size(184, 38);
             this.btn6.TabIndex = 5;
             this.btn6.Text = "button6";
@@ -417,8 +429,10 @@
             // btn7
             // 
             this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn7, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn7.Location = new System.Drawing.Point(3, 267);
             this.btn7.Name = "btn7";
+            this.helpProviderDashBoard.SetShowHelp(this.btn7, true);
             this.btn7.Size = new System.Drawing.Size(184, 38);
             this.btn7.TabIndex = 6;
             this.btn7.Text = "button7";
@@ -428,8 +442,10 @@
             // btn8
             // 
             this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn8, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn8.Location = new System.Drawing.Point(3, 311);
             this.btn8.Name = "btn8";
+            this.helpProviderDashBoard.SetShowHelp(this.btn8, true);
             this.btn8.Size = new System.Drawing.Size(184, 38);
             this.btn8.TabIndex = 7;
             this.btn8.Text = "btn8";
@@ -439,8 +455,10 @@
             // btn9
             // 
             this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn9, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn9.Location = new System.Drawing.Point(3, 355);
             this.btn9.Name = "btn9";
+            this.helpProviderDashBoard.SetShowHelp(this.btn9, true);
             this.btn9.Size = new System.Drawing.Size(184, 38);
             this.btn9.TabIndex = 8;
             this.btn9.Text = "btn9";
@@ -450,8 +468,10 @@
             // btn10
             // 
             this.btn10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.helpProviderDashBoard.SetHelpString(this.btn10, "Selecciona aquí para mostrar el gráfico o el informe");
             this.btn10.Location = new System.Drawing.Point(3, 399);
             this.btn10.Name = "btn10";
+            this.helpProviderDashBoard.SetShowHelp(this.btn10, true);
             this.btn10.Size = new System.Drawing.Size(184, 38);
             this.btn10.TabIndex = 9;
             this.btn10.Text = "btn10";
@@ -463,6 +483,7 @@
             chartArea1.Name = "ChartArea1";
             this.chartNorthWind.ChartAreas.Add(chartArea1);
             this.chartNorthWind.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.helpProviderDashBoard.SetHelpString(this.chartNorthWind, "Donde se muestran los datos en gráficos de barras");
             this.chartNorthWind.Location = new System.Drawing.Point(207, 113);
             this.chartNorthWind.Name = "chartNorthWind";
             series1.BorderColor = System.Drawing.Color.White;
@@ -472,6 +493,7 @@
             series1.ShadowOffset = 1;
             series1.YValuesPerPoint = 4;
             this.chartNorthWind.Series.Add(series1);
+            this.helpProviderDashBoard.SetShowHelp(this.chartNorthWind, true);
             this.chartNorthWind.Size = new System.Drawing.Size(764, 462);
             this.chartNorthWind.TabIndex = 5;
             this.chartNorthWind.Text = "chart1";

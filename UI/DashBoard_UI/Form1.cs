@@ -645,14 +645,14 @@ namespace DashBoard_UI
             this.toolTipDashBoard.SetToolTip(this.pBProductos, "Ventas de productos y stock");
             this.toolTipDashBoard.SetToolTip(this.pBClientes, "Ventas por clientes");
             this.toolTipDashBoard.SetToolTip(this.pBEnvios, "Envíos por compañía, país y ciudad");
-            this.toolTipDashBoard.SetToolTip(this.pBEnvios, "Informes");
+            this.toolTipDashBoard.SetToolTip(this.pBInformes, "Informes");
             this.toolTipDashBoard.SetToolTip(this.pBAyuda, "Manual de ayuda");
 
             this.toolTipDashBoard.SetToolTip(this.lblEmpleados, "Ventas por empleado");
             this.toolTipDashBoard.SetToolTip(this.lblProductos, "Ventas de productos y stock");
             this.toolTipDashBoard.SetToolTip(this.lblClientes, "Ventas por clientes");
             this.toolTipDashBoard.SetToolTip(this.lblEnvios, "Envíos por compañía, país y ciudad");
-            this.toolTipDashBoard.SetToolTip(this.lblEnvios, "Informes");
+            this.toolTipDashBoard.SetToolTip(this.lblInformes, "Informes");
             this.toolTipDashBoard.SetToolTip(this.lblAyuda, "Manual de ayuda");
 
             SelectButton(this.btn1);
