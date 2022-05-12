@@ -68,9 +68,9 @@ lortega@nortthwind.com
 
 
 ## Referencias
-[SAP Crystal Reports, para Visual Studio] (https://www.sap.com/products/crystal-visual-studio.html)
+[SAP Crystal Reports, para Visual Studio](https://www.sap.com/products/crystal-visual-studio.html)
 
-[Uso del control ReportViewer de WinForms] (https://docs.microsoft.com/es-es/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver15)
+[Uso del control ReportViewer de WinForms](https://docs.microsoft.com/es-es/sql/reporting-services/application-integration/using-the-winforms-reportviewer-control?view=sql-server-ver15)
 
 
 
