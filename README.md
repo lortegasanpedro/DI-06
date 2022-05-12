@@ -1,3 +1,3 @@
-"# DI-T06"
+# DI-T06
 
 Dashboard Lortega
