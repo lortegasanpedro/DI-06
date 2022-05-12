@@ -9,6 +9,8 @@ Dashboard Lortega
 - [Referencias](#Referencias)
 
 ## About
+Aplicación para la visualización de gráficos y informes de la empresa NorthWind
+![Esta es una imagen](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ## Contacto
 DashBoard
