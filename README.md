@@ -68,6 +68,7 @@ lortega@nortthwind.com
 
 
 ## Referencias
+
 [Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes)
 
 [SAP Crystal Reports, para Visual Studio](https://www.sap.com/products/crystal-visual-studio.html)
