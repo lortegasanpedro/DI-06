@@ -10,6 +10,8 @@ Dashboard Lortega
 
 ## About
 Aplicación para la visualización de gráficos y informes de la empresa NorthWind
+
+## Guía de usuario
 ![DashBoard lortega](ManualUsuario/DashBoard_lortega.png)
 ### Tipos de gráficos y informes
 ![Empleados](ManualUsuario/Empleados.png)
@@ -56,7 +58,6 @@ Aplicación para la visualización de gráficos y informes de la empresa NorthWi
 - Ventas Totales por Clientes 
 - Stocks de Productos 
 - Total de Envios por Pais 
-
 ## Contacto
 DashBoard
 
