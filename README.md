@@ -5,7 +5,7 @@ Dashboard Lortega
 
 - [About](#About)
 - [Contacto](#Contacto)
-- [Guía de instalación](#guía-de-instalación)
+- [Guía de usuario](#guía-de-usuario)
 - [Referencias](#Referencias)
 
 ## About
@@ -64,9 +64,6 @@ DashBoard
 Copyright (C) 2022 lortega
 
 lortega@nortthwind.com
-
-## Guía de instalación
-
 
 ## Referencias
 
