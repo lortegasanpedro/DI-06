@@ -33,18 +33,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_13E90D9F44B74D61A53591CED8288C40"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1A8C8E5FBB1F4D70A0B96B05C27D2119"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_20A72134EF8F1413C71E0282513403DF"
         "OwnerKey" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
         "MsmSig" = "8:_UNDEFINED"
@@ -75,7 +63,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_44345A7315BB4503B5A46E7748C8CE7A"
+        "MsmKey" = "8:_35294AC3AD3B401289CC1DB5A217B08B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -83,6 +71,12 @@
         {
         "MsmKey" = "8:_49CB62B20FB3C75A28E6DA587E8D4D7B"
         "OwnerKey" = "8:_54E0BF9C6DF96E63B16BA0944CCFD898"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4A066867DFF84AE595479E7D7C57D294"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -117,20 +111,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_58757E67CFCF4F18A9229E50266532E5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_62116669AC53D8284BD12EFD32B16910"
         "OwnerKey" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_63366C2C7A1047AC9588C4A4D5BAC5B9"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -149,12 +131,6 @@
         {
         "MsmKey" = "8:_6646B75B93CBFAA4EF53BAFE7E09ACD1"
         "OwnerKey" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6C3F8C68EACD4563886BB8E30FFAC1A3"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -225,6 +201,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_947E16C6CA69421FBC52C6971006BFBF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A1BE9E675DF1432EA31094850B07E00C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A4FCEBD12C9667A0925C811DB6642313"
         "OwnerKey" = "8:_ADC3868FF2B5ECBF1713281184B633AB"
         "MsmSig" = "8:_UNDEFINED"
@@ -237,7 +225,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A64F5CD739234947A4295551C3272F0A"
+        "MsmKey" = "8:_A5A63836630B495C821A77693B791F15"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -273,12 +261,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AB62ADB972B44C378E93167C7C2719C3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_ADC3868FF2B5ECBF1713281184B633AB"
         "OwnerKey" = "8:_C2A70CFA5345A27CEE5E20993B44182C"
         "MsmSig" = "8:_UNDEFINED"
@@ -293,12 +275,6 @@
         {
         "MsmKey" = "8:_ADC3868FF2B5ECBF1713281184B633AB"
         "OwnerKey" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C0A67A8FD88246C1B70C3E81E07878AB"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -323,12 +299,6 @@
         {
         "MsmKey" = "8:_C83DC863EFEB5275257259794E9D34E8"
         "OwnerKey" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_CBC9CAFB3B2244FBBB30304192E0ED1A"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -365,6 +335,36 @@
         {
         "MsmKey" = "8:_D95209D50EEC1DA61F9F1D6273AA81F7"
         "OwnerKey" = "8:_ADC3868FF2B5ECBF1713281184B633AB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E192489719834077AEDE0E7F55CD095A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E86424222A9C4D92BE76B04A51130615"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EA3F2C58435B4CC7AEBDF419C650317C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F22C69139A904D5699C73E27116551CB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F6D6D993AE764967AAADFC600C91D92E"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -686,46 +686,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13E90D9F44B74D61A53591CED8288C40"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\ManualUsuario\\ManualUsuarioDashBoard_lortega.chm"
-            "TargetName" = "8:ManualUsuarioDashBoard_lortega.chm"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1A8C8E5FBB1F4D70A0B96B05C27D2119"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf3VentasTotalesPorCadaEmpleado.cs"
-            "TargetName" = "8:Inf3VentasTotalesPorCadaEmpleado.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_20A72134EF8F1413C71E0282513403DF"
             {
             "AssemblyRegister" = "3:1"
@@ -788,10 +748,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44345A7315BB4503B5A46E7748C8CE7A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_35294AC3AD3B401289CC1DB5A217B08B"
             {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf3VentasTotalesPorCadaEmpleado.rpt"
-            "TargetName" = "8:Inf3VentasTotalesPorCadaEmpleado.rpt"
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf2ProductosCompradosPorUnCliente.cs"
+            "TargetName" = "8:Inf2ProductosCompradosPorUnCliente.cs"
             "Tag" = "8:"
             "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
             "Condition" = "8:"
@@ -826,6 +786,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4A066867DFF84AE595479E7D7C57D294"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf2ProductosCompradosPorUnCliente.rpt"
+            "TargetName" = "8:Inf2ProductosCompradosPorUnCliente.rpt"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_54C400FD7E31F5FAABEA3F51F7EA8783"
@@ -921,26 +901,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_58757E67CFCF4F18A9229E50266532E5"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf2ProductosCompradosPorUnCliente.cs"
-            "TargetName" = "8:Inf2ProductosCompradosPorUnCliente.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_62116669AC53D8284BD12EFD32B16910"
             {
             "AssemblyRegister" = "3:1"
@@ -970,26 +930,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_63366C2C7A1047AC9588C4A4D5BAC5B9"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf1VentasTotalesPorCategoriaYAgno.cs"
-            "TargetName" = "8:Inf1VentasTotalesPorCategoriaYAgno.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_659A4B068E85C46D0CFA96F3B1525417"
@@ -1052,26 +992,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C3F8C68EACD4563886BB8E30FFAC1A3"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf1VentasTotalesPorCategoriaYAgno.rpt"
-            "TargetName" = "8:Inf1VentasTotalesPorCategoriaYAgno.rpt"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_82599727983D980087C617BD5F2E4176"
@@ -1167,6 +1087,46 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_947E16C6CA69421FBC52C6971006BFBF"
+            {
+            "SourcePath" = "8:..\\IconoApp\\Custom-Icon-Design-Flatastic-5-Reports.ico"
+            "TargetName" = "8:IconApp.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1BE9E675DF1432EA31094850B07E00C"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf1VentasTotalesPorCategoriaYAgno.cs"
+            "TargetName" = "8:Inf1VentasTotalesPorCategoriaYAgno.cs"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A4FCEBD12C9667A0925C811DB6642313"
             {
             "AssemblyRegister" = "3:1"
@@ -1198,10 +1158,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A64F5CD739234947A4295551C3272F0A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A5A63836630B495C821A77693B791F15"
             {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf4VentasTotalesPorClientes.rpt"
-            "TargetName" = "8:Inf4VentasTotalesPorClientes.rpt"
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf3VentasTotalesPorCadaEmpleado.rpt"
+            "TargetName" = "8:Inf3VentasTotalesPorCadaEmpleado.rpt"
             "Tag" = "8:"
             "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
             "Condition" = "8:"
@@ -1249,26 +1209,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AB62ADB972B44C378E93167C7C2719C3"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf4VentasTotalesPorClientes.cs"
-            "TargetName" = "8:Inf4VentasTotalesPorClientes.cs"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_ADC3868FF2B5ECBF1713281184B633AB"
             {
             "AssemblyRegister" = "3:1"
@@ -1298,26 +1238,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C0A67A8FD88246C1B70C3E81E07878AB"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\Inf2ProductosCompradosPorUnCliente.rpt"
-            "TargetName" = "8:Inf2ProductosCompradosPorUnCliente.rpt"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C2A70CFA5345A27CEE5E20993B44182C"
@@ -1380,26 +1300,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CBC9CAFB3B2244FBBB30304192E0ED1A"
-            {
-            "SourcePath" = "8:..\\DashBoard_lortega\\IconoApp\\Custom-Icon-Design-Flatastic-5-Reports.ico"
-            "TargetName" = "8:IconoApp.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D11E457969A3FC6583406F69A97901CE"
@@ -1493,6 +1393,106 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E192489719834077AEDE0E7F55CD095A"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf4VentasTotalesPorClientes.cs"
+            "TargetName" = "8:Inf4VentasTotalesPorClientes.cs"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E86424222A9C4D92BE76B04A51130615"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf1VentasTotalesPorCategoriaYAgno.rpt"
+            "TargetName" = "8:Inf1VentasTotalesPorCategoriaYAgno.rpt"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EA3F2C58435B4CC7AEBDF419C650317C"
+            {
+            "SourcePath" = "8:..\\ManualUsuario\\ManualUsuarioDashBoard_lortega.chm"
+            "TargetName" = "8:ManualUsuarioDashBoard_lortega.chm"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F22C69139A904D5699C73E27116551CB"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf3VentasTotalesPorCadaEmpleado.cs"
+            "TargetName" = "8:Inf3VentasTotalesPorCadaEmpleado.cs"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6D6D993AE764967AAADFC600C91D92E"
+            {
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\Inf4VentasTotalesPorClientes.rpt"
+            "TargetName" = "8:Inf4VentasTotalesPorClientes.rpt"
+            "Tag" = "8:"
+            "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FA0651839731283DF47953DACE5EB86F"
@@ -1756,7 +1756,7 @@
             "Target" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
             "Folder" = "8:_9C7368841649403986175F40B75D81EC"
             "WorkingFolder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Icon" = "8:_CBC9CAFB3B2244FBBB30304192E0ED1A"
+            "Icon" = "8:_947E16C6CA69421FBC52C6971006BFBF"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D505517E771A4457BB1256922FAEA773"
@@ -1770,7 +1770,7 @@
             "Target" = "8:_788DE88DE6AD47F59DD28A87ACD85361"
             "Folder" = "8:_58D3D3246724476BBCB7D140E1DAA0E2"
             "WorkingFolder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
-            "Icon" = "8:_CBC9CAFB3B2244FBBB30304192E0ED1A"
+            "Icon" = "8:_947E16C6CA69421FBC52C6971006BFBF"
             "Feature" = "8:"
             }
         }
@@ -2174,7 +2174,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_788DE88DE6AD47F59DD28A87ACD85361"
             {
-            "SourcePath" = "8:..\\DashBoard_lortega\\UI\\DashBoard_UI\\obj\\Debug\\DashBoard_UI.exe"
+            "SourcePath" = "8:..\\UI\\DashBoard_UI\\obj\\Debug\\DashBoard_UI.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_C8A15F3DE6844749A5C607B615493F7E"
