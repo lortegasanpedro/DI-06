@@ -24,8 +24,18 @@ namespace DashBoard_UI
 
         private void Informes_Load(object sender, EventArgs e)
         {
+            string path;
+            string pathApp = Application.StartupPath;
+            if (pathApp.EndsWith("\\bin\\Debug") || pathApp.EndsWith("\\bin\\Release")) {
+                path = "../../" + this.informe;
+            } else
+            {
+                path = this.informe;
+            }
+
             ReportDocument cryRpt = new ReportDocument();
-            string path = "../../" + this.informe;
+            //
+            //string path = this.informe;
             //string path = "../../Inf4VentasTotalesPorClientes.rpt";
             cryRpt.Load(path);
 

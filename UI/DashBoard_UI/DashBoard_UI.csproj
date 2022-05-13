@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Custom-Icon-Design-Flatastic-5-Reports.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
@@ -253,6 +256,7 @@
     <None Include="Resources\3669173_help_ic_icon.png" />
     <None Include="Resources\1814114_help_question_icon.png" />
     <None Include="Resources\1814114_help_question_icon1.png" />
+    <Content Include="Custom-Icon-Design-Flatastic-5-Reports.ico" />
     <Content Include="Resources\7632690_dashboard_graph_analytics_report_icon.png" />
     <None Include="Resources\Image1.bmp" />
     <Content Include="SqlServerTypes\readme.htm" />
