@@ -5,7 +5,7 @@ Dashboard Lortega
 
 - [About](#About)
 - [Contacto](#Contacto)
-- [Guía de instalación](#guía-de-instalación)
+- [Guía de usuario](#guía-de-usuario)
 - [Referencias](#Referencias)
 
 ## About
@@ -58,15 +58,13 @@ Aplicación para la visualización de gráficos y informes de la empresa NorthWi
 - Ventas Totales por Clientes 
 - Stocks de Productos 
 - Total de Envios por Pais 
+
 ## Contacto
 DashBoard
 
 Copyright (C) 2022 lortega
 
 lortega@nortthwind.com
-
-## Guía de instalación
-
 
 ## Referencias
 
