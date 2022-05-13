@@ -641,6 +641,7 @@ namespace DashBoard_UI
         private void Form1_Load(object sender, EventArgs e)
         {
 
+
             this.toolTipDashBoard.SetToolTip(this.pBEmpleados, "Ventas por empleado");
             this.toolTipDashBoard.SetToolTip(this.pBProductos, "Ventas de productos y stock");
             this.toolTipDashBoard.SetToolTip(this.pBClientes, "Ventas por clientes");
@@ -691,7 +692,17 @@ namespace DashBoard_UI
             SelectPictureBox(sender);
             OcultarBotones();
             tipo = Constantes.TIPO_AYUDA;
-            Help.ShowHelp(this, "ManualUsuarioDashBoard_lortega.chm");
+            string path;
+            string pathApp = Application.StartupPath;
+            if (pathApp.EndsWith("\\bin\\Debug") || pathApp.EndsWith("\\bin\\Release"))
+            {
+                path = "../../../../ManualUsuario/" + "ManualUsuarioDashBoard_lortega.chm";
+            }
+            else
+            {
+                path = "ManualUsuarioDashBoard_lortega.chm";
+            }
+            Help.ShowHelp(this, path);
         }
 
 
